@@ -25,8 +25,6 @@ Mpeg1Muxer = function (options) {
     "tcp",
     "-i",
     this.url,
-    "-q:v",
-    3,
     "-f",
     "mpegts",
     "-codec:v",
